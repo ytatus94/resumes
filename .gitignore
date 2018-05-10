@@ -1,0 +1,7 @@
+# OS generate files #
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+# vi file #
+*.swp
