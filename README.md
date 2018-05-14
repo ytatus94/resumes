@@ -1,6 +1,9 @@
 # resumes
 Resumes and cover letters
 
+### 2018/05/14
+* It is "efficiency" not "accuracy"
+
 ### 2018/05/10
 Quantify the results
 
