@@ -1,6 +1,9 @@
 # resumes
 Resumes and cover letters
 
+### 2018/07/31
+* Modify cover letter
+
 ### 2018/07/23
 * Modify resume
 
