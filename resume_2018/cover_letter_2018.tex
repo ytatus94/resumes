@@ -22,16 +22,39 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
+% Variables
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\CompanyName}{Company Name}
+\newcommand{\CompanyAddress}{City, State}
+\newcommand{\JobPositionName}{Data Scientist}
+\newcommand{\ManagerName}{Madam or Sir to whom it may concern}
+
+\newcommand{\MyFirstName}{Yu-Ting}
+\newcommand{\MyLastName}{Shen}
+\newcommand{\MyAddress}{Norman, OK 73019}
+\newcommand{\MyPhoneNumber}{(450)200.2633}
+\newcommand{\MyEmail}{YuTing.Shen-1@ou.edu}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
 % PERSONAL DATA
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\name{Yu-Ting}{Shen}
-\name{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Yu-Ting} \normalfont}{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Shen} \normalfont}
+% \name{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Yu-Ting} \normalfont}
+%      {\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Shen} \normalfont}
+% \title{Resumé title}                               % optional, remove / comment the line if not wanted
+% \address{Norman, OK 73019}{}                       % use city and zip code only
+% \phone[mobile]{(450)200.2633}
+% \email{YuTing.Shen-1@ou.edu}
+\name{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {\MyFirstName{}} \normalfont}
+     {\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {\MyLastName{}} \normalfont}
 \title{Resumé title}                               % optional, remove / comment the line if not wanted
-\address{Norman, OK 73019}{}                       % use city and zip code only
-\phone[mobile]{(450)200.2633}
-\email{YuTing.Shen-1@ou.edu}
+\address{\MyAddress{}}{}                       % use city and zip code only
+\phone[mobile]{\MyPhoneNumber{}}
+\email{\MyEmail{}}
 
 \begin{document}
 
@@ -41,12 +64,17 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\recipient{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Company Name}  \normalfont}{Company Address}
+%\recipient{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Company Name}  \normalfont}{Company Address}
+\recipient{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {\CompanyName{}}  \normalfont}{\CompanyAddress{}}
 \date{\today}
 
-\opening{Dear Madam or Sir to whom it may concern:}
+%\if\ManagerName{}\undefined
+%\opening{Dear Madam or Sir to whom it may concern:}
 %\opening{To whom it may concern:}
+%\else
+\opening{Dear \ManagerName{}:}
 %\opening{Dear HIRING_MANAGER_NAME:}
+%\fi
 \closing{Yours faithfully,} % 非以對方姓氏稱呼對方時
 %\closing{Yours sincerely,} % 知道對方姓氏時
 \enclosure[Attached]{resume}
@@ -78,7 +106,7 @@
 \justifying
 %(USE A SENTENCE TO DESCRIBE THE REASON WHY APPLYING FOR THIS POSITION AT HERE.)
 %I am interesting in the position of JOBPOSITION (job id: JOBID) with COMPANY.
-I am applying for the position of [JOB POSITION NAME] in [COMPANY].
+I am applying for the position of \JobPositionName{} in \CompanyName{}.
 I started to analyze data since I enrolled in my Ph.D program in high energy physics and prepared myself to work with data by learning necessary knowledge and skills.
 
 
@@ -100,9 +128,9 @@ Finally, the least Chi-square fit and statistical interpretations are applied on
 Because CERN is a huge international orginazation, I learned how to collaborate with colleagues coming from different countries with different cultures while I lived at CERN.
 
 
-I would welcome the chance to speak with you about the responsibilities of the [JOB POSITION NAME] position if you think I am a qualified candidate.
+I would welcome the chance to speak with you about the responsibilities of the \JobPositionName{} position if you think I am a qualified candidate.
 My resume containing detailed work experience and education is attached.
-I think my background makes me an unique candidate to fit this challenging position and I would be a valuable addition to your team.
+I am confident that my background makes me a unique candidate to fit this challenging position and I would be a valuable addition to your team.
 I look forward to hearing from you.
 Thank you for your consideration.
 
