@@ -4,6 +4,7 @@ Resumes and cover letters
 ### 2018/08/01
 * Modify cover letter
 * Add Makefile but it doesn't work correctly
+* Remove pdf file from remote
 
 ### 2018/07/31
 * Modify cover letter
