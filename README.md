@@ -1,6 +1,9 @@
 # resumes
 Resumes and cover letters
 
+### 2018/09/08
+* Add a long version of resume.
+
 ### 2018/08/01
 * Modify cover letter
 * Add Makefile but it doesn't work correctly
