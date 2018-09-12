@@ -1,6 +1,11 @@
 # resumes
 Resumes and cover letters
 
+### 2018/09/12
+* Add CV for applying post doc.
+* Modify resume to add keywords and termonologies
+* Add pdf files for the resume template
+
 ### 2018/09/08
 * Add a long version of resume.
 
