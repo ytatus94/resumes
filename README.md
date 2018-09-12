@@ -5,6 +5,7 @@ Resumes and cover letters
 * Add CV for applying post doc.
 * Modify resume to add keywords and termonologies
 * Add pdf files for the resume template
+* Add list of internal notes in CV
 
 ### 2018/09/08
 * Add a long version of resume.
