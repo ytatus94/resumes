@@ -1,0 +1,136 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amscd}
+\usepackage{amsfonts}
+\usepackage{graphicx}%
+\usepackage{fancyhdr}
+\usepackage{authblk}
+\usepackage[bottom=0.8in, top=0.5in, left=0.8in, right=0.8in]{geometry}
+
+%\theoremstyle{plain} \numberwithin{equation}{section}
+%\newtheorem{theorem}{Theorem}[section]
+%\newtheorem{corollary}[theorem]{Corollary}
+%\newtheorem{conjecture}{Conjecture}
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{proposition}[theorem]{Proposition}
+%\theoremstyle{definition}
+%\newtheorem{definition}[theorem]{Definition}
+%\newtheorem{finalremark}[theorem]{Final Remark}
+%\newtheorem{remark}[theorem]{Remark}
+%\newtheorem{example}[theorem]{Example}
+%\newtheorem{question}{Question} \topmargin-2cm
+
+
+%\textwidth6in
+%
+%\setlength{\textwidth}{6in}
+%\setlength{\topmargin}{0in}
+%\addtolength{\topmargin}{-\headheight}
+%\addtolength{\topmargin}{-\headsep}
+%
+%\setlength{\oddsidemargin}{0in}
+%
+%\oddsidemargin  0.0in
+%\evensidemargin 0.0in
+%\parindent0em
+%
+%\pagestyle{fancy}\lhead{Research Statement} \rhead{August 2005}
+%\chead{{\large{\bf My Name}}} \lfoot{} \rfoot{\bf \thepage} \cfoot{}
+%
+%\newcounter{list}
+
+
+\title{Research Statement}
+\author{Yu-Ting Shen}
+\affil{Department of Physics and Astronomy\\ University of Oklahoma}
+\date{\today}
+
+\begin{document}
+\maketitle
+%\raisebox{1cm}
+
+My research interest is in the experimental particle physics and computing.
+In particular, I am interested in applying the machine learning techniques to improve the analysis results.
+I got Ph.D degree from the University of Oklahoma (OU) at May 2018 and I am currently working as temporary research assistant at OU HEP group to help my advisor Dr. Skubic on the supersymmetry (SUSY) search in Non-Universal Higgs Mass Model with 2 extra parameters (NUHM2).
+I also have some experiences on neutrino physics and $B$-physics.
+
+%%%%%
+
+\section{Current and Previous Research}
+My Ph.D research at the University of Oklahoma (2011 to 2018) was focused on searching the supersymmetry particles at the ATLAS detector.
+After passing the written and oral Ph.D. qualifier exams, I relocated to CERN (2015 to 2018) and participated in the same-sign/3L and Higgsino LSP analysis groups.
+Beside searching for the SUSY particles, I also measured the electron isolation scale factors and provided the results as the ATLAS $E/\gamma$ recommendations by the Combined Performance group.
+
+\subsection{Electron isolation efficiency}
+It is very important to calibrate the simulated electron events to data collected by the ATLAS detector because almost all of the analysis groups need to consider the electrons in their studies.
+The $E/\gamma$ CP group developed a Tag-and-Probe frame to measure the electron reconstruction, identification,  isolation, and trigger efficiencies.
+I co-developed and maintained the measurement of the electron isolation part in Tag-and-Probe framework.
+The electron isolation efficiencies for various combinations of isolation working points and electron id working points were measured and the data to MC scale factors were calculated using $Z \to ee$ events.
+The scale factors cover  a range in $E_{\textrm{T}}$ from 7 to 200 GeV and $|\etaη| < 2.47$.
+In 2015 and 2016, I released 5 recommendations in total and the most important two are the recommendations for Moriond and ICHEP 2016.
+While working on the measurement of the electron isolation efficiencies, I also help di-photon group study the isolation efficiencies using photon isolation working points.
+And a journal paper at a di-photon invariant mass around 750 GeV was publish.
+
+\subsection{Same-sign 3 leptons plus jets}
+With the experience in electron isolation measurement, I was working on the real lepton efficiency measurement for the same-sign/3 leptons plus jets analysis.
+I developed a new framework utilized the EventLoop algorithm which provides all advantages of the object oriented programming.
+The filtration function of my new framework can reduce the size of datasets by more than a factor of ten which improving the processing speed.
+The automation function of my new framework provided a convenience way to calculate the real lepton efficiency and make the final tables and figures.
+It takes about one week manual operations to get the results for 3.2 fb$^{-1}$ using the old framework.
+However, it only takes one afternoon to process 36 fb$^{-1}$ results using my new real lepton efficiency framework.
+With this great improvement, the isolation forum convenors asked my to give a presentation in their meeting and added my my framework as an auxiliary tools for the isolation package.
+
+\subsection{Non-Universal Higgs Mass model}
+I worked on searching for the Higgsino LSP in the Non-Universal Higgs Mass model with two extra parameters (NUHM2) as my dissertation.
+The NUHM2 decouples the Higgs mass doublet parameters $m^{2}_{H_{u}}$ and $m^{2}_{H_{d}}$ at the GUT scale such that $m^{2}_{H_{u}} \neq m^{2}_{H_{d}} \neq m^{2}_{0}(m_{\textrm{GUT}})$ leading to a low fine-tuning $\Delta_{EW}$ values at the electroweak scale and keeping electroweak maturalness.
+The low electroweak fine-tuning (EWFT) in the NUHM2 model maintains the Higgs mass $\sim 125$ GeV and $Z$ boson mass $m_{Z} = 91.2$ GeV and requires no large cancellations at the electroweak scale. 
+It expects the light Higgsino masses to be 100 $\sim$ 300 GeV and the electroweak gaugino masses 300 $\sim$ 1200 GeV which are reachable by the current LHC energy scale.
+We produced the MC simulations for the NUHM2, re-weighted the simplified Higgsino model to the NUHM2, and applied all the event selections, reconstruction, background suppression processes to optimize the signal.
+Finally, the cross-section at next-to-leading-logarithm (NLL) accuracy was estimated using HistFitter to fit the signal and background simultaneously and the upper limit at the 95\% CL were provided.
+
+\subsection{Earlier research experience}
+I was an active member (2009 to 2011) of TEXONO collaboration at Department of Physics in Academia Sinica.
+The TEXONO experiment aimed to measure the neutrino coming from the nuclear reactor at Kuosheng Nuclear Power Plant in Taiwan.
+My main duty in TEXNON was using GEANT4 package to develop the simulation program of the high purity germanium detector and studied the ambient background radiation.
+I also had one month business trip to China to help Tsinghua university to build the the China Jinping Underground Laboratory (CJPL).
+
+My master period (2003 to 2006) was working on the $B$-physics at the Belle experiment.
+The topic of my master thesis is "Measurements of branching fractions and CP asymmetries in $B \to \phi \phi K$ decays at Belle". 
+My results was planned to submit to PRD.
+However, the internal review process was too slow and I didn't have much time to work on it after I graduated and worked in the industry resulting in my results only published on the arXiv~\cite{Abe:2006qy, Shen:2008pr}.
+
+%%%%%
+
+\section{Other Research Interests}
+Because the significant enhancement of the computing power especially in the CPU and GPU processing speed, machine learning gets more attention in recent years. 
+The high energy physics community starts to adopt the machine learning techniques in analyzing the experiment datasets.
+There are more and more analysis groups in the ATLAS experiment using boost decision tree (BDT) and neural network (NN) and the same situation also happens in the CMS experiment.
+For example, a NN is used to improve the background rejection and extract the signal in the single top quark analysis group leading by OU. The resulting significance is 4.2 $\sigma$ in the data~\cite{Aaboud:2017ylb}.
+
+I am very interested in learning and applying the machine learning techniques on the  data analysis.
+After graduated from OU, I spent a lot of efforts in learning the knowledge and skills of  machine learning.
+The data manipulation using Python Pandas package and the machine learning using Python Scikit-learn package became part of my skills.
+I have been applied the machine learning models such as linear regression, logistic regression, SVM, kNN, decision tree, and random forest to some projects for practicing purpose and wish these skills can be applied on the particle physics experimental data to help the analysis.
+
+%%%%%
+
+\section{Future Directions}
+In the future I would like to continue working in the area of data analysis on the experimental particle physics but also  extremely interested to investigate different directions such as hardware or firmware development.
+In addition, I plan to employ the machine leaning technologies to the experimental datasets to improve the analysis accuracy and precision.
+
+%%%%%
+
+\begin{thebibliography}{999}
+\bibitem{Aaboud:2017leg} ATLAS collaboration, "Search for electroweak production of supersymmetric states in scenarios with compressed mass spectra at $\sqrt{s} = 13$ TeV $pp$ collision data with the ATLAS detector", PRD 97, 052010 (2018).
+\bibitem{Aaboud:2017dmy} ATLAS collaboration, "Search for supersymmetry in final states with two same-sign or three leptons and jets using 36 fb$^{-1}$ of $\sqrt{s} = 13$ TeV $pp$ collision data with the ATLAS detector", JHEP09 (2017) 084.
+\bibitem{Aad:2016tuk} ATLAS collaboration, "Search for supersymmetry at $\sqrt{s} = 13$ TeV in final states with jets and two same-sign leptons or three leptons with the ATLAS detector", Eur. Phys. J. C 76 (2016) 259
+\bibitem{Aaboud:2016tru} ATLAS collaboration, "Search for resonances in diphoton events at $\sqrt{s} = 13$ with the ATLAS detector", JHEP09 (2016) 001
+\bibitem{Abe:2006qy} Belle collaboration, "Observation of $B \to \phi \phi K$ Decays", arXiv:hep-ex/0609016.
+\bibitem{Shen:2008pr} Belle collaboration, "Study of $B \to \phi \phi K$ Decays", arXiv:0802.1547.
+\bibitem{Aaboud:2017ylb}ATLAS collaboration, "Measurement of the production cross-section of a single top quark in association with a Z boson in proton–proton collisions at 13 TeV with the ATLAS detector", Phys.Lett. B780 (2018) 557-577
+\end{thebibliography}
+
+\end{document}
+
