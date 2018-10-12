@@ -1,61 +1,47 @@
-\documentclass[11pt,letterpaper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[12pt,letterpaper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt')
+                                                   % paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') 
 % moderncv themes
-\moderncvstyle{classic}                      % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{green}                        % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}   % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                            % uncomment to suppress automatic page numbering for CVs longer than one page
+\moderncvstyle{classic}           % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}             % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-% character encoding
-%\usepackage[utf8]{inputenc}                 % if you are not using xelatex ou lualatex, replace by the encoding you are using
-\usepackage{ragged2e}
-% adjust the page margins
-\usepackage[scale=0.75]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}          % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage[utf8]{inputenc}       % use UTF-8 input encoding
+\usepackage{ragged2e}             % Text alignment
+\usepackage[scale=0.75]{geometry} % adjust the page margins
 
-% change font
-\usepackage{fontspec}
-\setmainfont[Color=primary, Path = fonts/lato/]{Lato-Lig}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
-
-%\newcommand{\myname}[2]{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{11pt}{11pt}\selectfont {#1}{#2} \normalfont}
+% Change font
+\renewcommand{\familydefault}{\sfdefault} % use serif
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% Variables
+% VARIABLES
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\CompanyName}{Company}
 % \newcommand{\CompanyAddress}{City, State}
 \newcommand{\CompanyAddress}{San Francisco, CA}
 \newcommand{\JobPositionName}{Data Scientist}
-\newcommand{\ManagerName}{Madam or Sir to whom it may concern}
+\newcommand{\ManagerName}{Madam or Sir to whom it may concern:}
+\newcommand{\ClosingWords}{Yours faithfully,} % 非以對方姓氏稱呼對方時
+%\newcommand{\ClosingWords}{Yours sincerely,} % 知道對方姓氏時
 
 \newcommand{\MyFirstName}{Yu-Ting}
 \newcommand{\MyLastName}{Shen}
 \newcommand{\MyAddress}{Norman, OK 73019}
 \newcommand{\MyPhoneNumber}{(450)200.2633}
 \newcommand{\MyEmail}{YuTing.Shen-1@ou.edu}
+%\newcommand{\MyHomepage}{www.myhomepage.com}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % PERSONAL DATA
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \name{Yu-Ting}{Shen}
-% \name{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Yu-Ting} \normalfont}
-%      {\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Shen} \normalfont}
-% \title{Resumé title}                               % optional, remove / comment the line if not wanted
-% \address{Norman, OK 73019}{}                       % use city and zip code only
-% \phone[mobile]{(450)200.2633}
-% \email{YuTing.Shen-1@ou.edu}
-\name{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {\MyFirstName{}} \normalfont}
-     {\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {\MyLastName{}} \normalfont}
-\title{Resumé title}                               % optional, remove / comment the line if not wanted
-\address{\MyAddress{}}{}                       % use city and zip code only
-\phone[mobile]{\MyPhoneNumber{}}
+\name{\MyFirstName{}}{\MyLastName{}}
+\address{\MyAddress{}}
+\phone[mobile]{\MyPhoneNumber{}} % can be mobile, fixed, fax
 \email{\MyEmail{}}
+
+
 
 \begin{document}
 
@@ -65,120 +51,42 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\recipient{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {Company Name}  \normalfont}{Company Address}
-\recipient{\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{11pt}\selectfont {\CompanyName{}}  \normalfont}{\CompanyAddress{}}
+\recipient{\CompanyName{}}{\CompanyAddress{}}
 \date{\today}
-
-%\if\ManagerName{}\undefined
-%\opening{Dear Madam or Sir to whom it may concern:}
-%\opening{To whom it may concern:}
-%\else
-\opening{Dear \ManagerName{}:}
-%\opening{Dear HIRING_MANAGER_NAME:}
-%\fi
-\closing{Yours faithfully,} % 非以對方姓氏稱呼對方時
-%\closing{Yours sincerely,} % 知道對方姓氏時
-%\enclosure[Attached]{resume}
-
+\opening{Dear \ManagerName{}}
+\closing{\ClosingWords}
 \makelettertitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% LETTER CONTENT
+% LETTER CONTENTS
 %
-% 1. cv & 為何申請這間公司
-% 2. purpose & 要一個機會
-% 3. concise 簡短
-% 4. structure & format & language
-% 5. 約 120 or 150 字
-%
-%
-% 1. Create a professional header with your info.
-% 2. Address the hiring manager by name.
-% 3. Show relevant achievements to introduce yourself in the first paragraph.
-% 4. Target the employer’s needs and prove you can help in the second paragraph.
-% 求職信第二段的剩餘部分應該是關於您以前的經歷將如何幫助您未來的雇主推進他們的計劃
-% 5. Explain why you want to join and convince the employer you want to stay in the third paragraph.
-% 6. Reiterate your offer and make a call to action in the final paragraph.
-% 7. Sign off with a proper formal closing and your full name.
-% 8. Include one more achievement in the postscript to stand out.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \justifying
-%(USE A SENTENCE TO DESCRIBE THE REASON WHY APPLYING FOR THIS POSITION AT HERE.)
-% I am interesting in the position of JOBPOSITION (job id: JOBID) with COMPANY.
+
+% USE A SENTENCE TO DESCRIBE THE REASON WHY APPLYING FOR THIS POSITION AT HERE.
 I am applying for the position of \JobPositionName{} in \CompanyName{}.
-I started to analyze big data since I enrolled in my Ph.D program in high energy physics and prepared myself to work with big data by learning necessary knowledge and skills.
+I started to analyze big data since I enrolled in my Ph.D program and prepared myself to work with big data by learning necessary knowledge and skills.
 
-
-% Considering the differences between academia and industry, I took several data analysis and machine learning online courses from DataCamp, Codecademy and Coursera to become familiar with the knowledge and tools commonly used in the industry.
-% I have taken several data analysis and machine learning online courses from DataCamp, Codecademy and Coursera.
-I have taken several data analysis and machine learning online courses and bootcamp.
-% I believe these courses can help me to switch from academia to the industry smoothly.
-The skills such as querying data using SQL, manipulating and cleaning data using Pandas, visualizing results using Matplotlib and Seaborn, and machine learning using scikit-learn and Keras are in my toolbox now.
-Several projects are done while taking courses.
-% After finishing capstone projects and receiving certificates from online courses, I participated in the competitions on Kaggle to sharpen my data analysis skills and learn from other experts.
+I have taken several data analysis and machine learning courses and bootcamp.
+The skills such as querying data using SQL, manipulating and cleaning data using Pandas, visualizing data distributions using Matplotlib and Seaborn, and machine learning using Scikit-learn and Keras are in my toolbox now.
 Now I participate in the competitions on Kaggle to sharpen my data analysis skills and learn from other experts.
 
-% For the last three years I have worked in analyzing the data at CERN where I was responsible for the analysis of two physics processes using the data collected by the experiment and also for developing a new software framework to enhance the performance.
-% I am familiar with the C/C++ and Python languages because my doctorial research heavily relies on programming to analyze data.
-% For the last three years I have worked in analyzing the data at CERN for my dissertation using C/C++ and Python.
-% My physics Ph.D. background trained me to become a careful researcher and strengthened my problem solving skills allowing me to find the best way to reach correct answers.
 The Ph.D. in high energy physics trained me to be a careful researcher and strengthened my problem solving skills.
-% I have worked in analyzing the data collected by the ATLAS experiment at the European Organization for Nuclear Research (CERN) for the past several years.
-In high energy physics, we analyze the experimental data and compare the results with the theoretical predictions.
-The experimental raw data are produced at a rate about 50 TB/s.
-In order to analyze the huge amount of data produced by the experiment, I developed an analysis framework using C/C++ and Python.
-% The various analysis methods such as Monte Carlo simulation, event selection and reconstruction, background suppression are mainly implemented by C/C++ and the results are visualized using Python with the PyRoot package.
-% The various analysis methods such as Monte Carlo simulation, candidates extraction, noise suppression, maximum likelihood estimation are implemented.
-% Finally, the least Chi-square fit and statistical interpretations are applied on the data to extract signals.
-% Because CERN is a huge international orginazation, I learned how to collaborate with colleagues coming from different countries with different cultures while I lived at CERN.
-% I have no problem to work with colleagues as a team because I collaborated with people from different countries while I worked at CERN in the past three years.
-
+Presenting the findings in weekly meeting makes me able to explain quantitative topics for a variety of audiences.
+Analyzing the experimental data which are produced at a rate about 50 TB/s consolidates my C/C++ and Python programming skills.
+%In high energy physics, we analyze the experimental data and compare the results with the theoretical predictions.
+%The experimental raw data are produced at a rate about 50 TB/s.
+%In order to analyze the huge amount of data produced by the experiment, I developed an analysis framework using C/C++ and Python.
 
 I would welcome the chance to speak with you about the responsibilities of the \JobPositionName{} position.
-% if you think I am a qualified candidate.
 My resume containing detailed work experience and education is attached.
 I am confident that my background makes me a unique candidate to fit this challenging position and I would be a valuable addition to your team.
 I look forward to hearing from you.
 Thank you for your consideration.
 
-
-\vspace{0.01cm}
+\vspace{0.5cm}
 
 \makeletterclosing
+
 \end{document}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Examples
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-% Dear Ms. Hiring Manager,
-% I’m applying for the position of Senior Data Scientists (job id: 1234534). My resume with detailed work experience is enclosed. Based on the job description, I think this position looks both fun and challenging — and a great place for me to further my career! If you have a moment, I’d love to ask you more questions around the tools you’re using and the types of projects I might be running if hired.
-% And, if you have any questions about my resume, feel free to reach out over email or call me directly at my phone number in the signature.
-% Hope to hear from you soon,
-% Jordan
-% ---
-% To whom it may concern,
-% I’m excited to apply for the position of lead data scientist. My resume contains a detailed work history and my accomplishments.
-% Please let me know what questions you have,
-% Jordan
-% ---
-% Dear Ms. Hobbs,
-
-% I am interested in the Data Scientist position with Google and I am confident that I would be a valuable addition to your team.
-
-% For the last five years I have worked in a similar position at Facebook where I was responsible for the analysis of raw data and also for contributing to the creation of data products such as Facebook’s Graph Search. My time at Facebook taught me how to identify and answer industry-relevant questions and then how to use that information to create a cutting edge advantage for my team in the marketplace.
-
-% The Bachelor of Science in Computer Science that I earned from DeVry University was instrumental to my success during my time as a data scientist at Facebook. Along the way to earning my degree I also developed a strong background in mathematics that has served me well in my pursuit to advance the interests of my employers. My experience at Facebook and my educational background make me a good fit for this position as does my personal passion for logical problem solving.
-
-% Your time and consideration are appreciated and I look forward to hearing from you. You can reach me at (555) 497-4782. Thanks for your attention.
-
-% Best,
-
-% Debra Tanner
-% ---
-% If you think I’d be a good fit for Kolt Insights, then I’d be thrilled to set up an interview.
