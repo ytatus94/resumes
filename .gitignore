@@ -13,3 +13,7 @@ Thumbs.db
 *.out
 *.synctex.gz
 *.xdv
+# pdf files
+resume_2018/cover_letter_2018.pdf
+resume_2018/resume_2018.pdf
+resume_2018/resume_comment_2.pdf
