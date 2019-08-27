@@ -1,5 +1,8 @@
 # resumes
 Resumes and cover letters
+### 2019/08/26
+* Add 'research_statement_examples' directory
+* Upload newest resuma tex.
 
 ### 2018/09/12
 * Add CV for applying post doc.
