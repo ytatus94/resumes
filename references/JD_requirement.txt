@@ -1,0 +1,131 @@
+學歷
+MS degree minimum, PhD preferred
+Bachelor's Degree with 5 years in a data science or business/system analytics role at a SaaS company preferably with experience in the health care or insurance industry or Master's Degree with 3 years of relevant experience or equivalent work experience.
+Master's Degree preferred.
+B.S., M.S., Ph.D. in a scien!fic or quan!ta!ve field, for example: Sta!s!cs, Computer Science, Physics or Cogni!ve Science
+BS or Masters Degree in mathema!cs, sta!s!cs, economics or computer science (or a related quan!ta!ve discipline). If you are thinking about doing a PhD someday, chances are you’ll love our team.
+3-5 years for Masters degree candidates
+Masters degree or PhD in Mathematics, Machine learning, Operations Research, Statistics or a related discipline
+Strong academic credentials with a M.S. in Computer Science, Statistics, Data Science or related field with a preference for Ph.D.
+Rigorous quantitative background
+M.S. in Computer Science, Applied Mathematics, or related field; Ph.D. preferred
+Pursuing a PhD, MS or BS in CS, Math, Statistics, Physics, Economics or other quantitative Oeld with an expected graduation date of Summer 2019. We will also consider candidates with quantitative backgrounds who are currently enrolled in business school.
+MS or PhD in statistics, computer science or quantitative biology.
+Minimum of a bachelor’s degree in a quantitative field; Master’s degree preferred
+Recent college grad or preferred 2+ years’ experience conduc!ng sta!s!cal analyses on large datasets, ideally in an internet consumer business context (can supplement with academic experience where appropriate)
+PhD or Masters is a plus
+Advanced degree in Computer Science, Mathema!cs, Sta!s!cs, or another related field, or equivalent training/fellowship
+3+ years in industry experience and a Master's degree in a quantitative Geld or Economics; PhD is a plus
+Strong analytical fundamentals: Pursuing a PhD or MS in CS, Math, Statistics, Physics, Economics or other quantitative Seld with an expected graduation date of Summer 2019.
+Preferred Selds of study are statistics, math, economics, or related discipline.
+Pursuing a MS or PhD in CS, Math, Statistics, Physics, Economics or other quantitative Reld with an expected graduation date latest of Summer 2019. Strong skills in statistics, probability, and machine learning.
+PhD in applied mathematics, computer science, computational neuroscience, or a related field
+
+
+程式
+Algorithm implementation in Python and C++
+Fluent with scripting (Python preferred)
+Fluent with the Linux command line (Ubuntu preferred)
+Experience with R and Python is highly desirable.
+Experience with SAS Analytics is a plus.
+Proficient with Python or similar scrip!ng language
+Experience in working with large data sets and distributed compu!ng tools (Hive, Redshi#) is a plus
+Programming proficiency in R or Python (you have wri%en massive amounts of code, employing revision control, and tes!ng)
+Programming competency in Java, Scala
+Experience with AWS cloud compu!ng technologies
+Comfort with programming (ideally in Python and R)
+Experience in Scala or PySpark on distributed systems
+Interest in working with MapReduce technologies (such as Hadoop / Spark)
+statistical programming in languages like R, Python, Java, C++ or SAS
+Ability to write and mentor code development in SQL and Python (or R).
+Experience with dashboard design and data viz tools (i.e. Tableau) is a plus
+Skilled in R, Python, and SQL. Google Analytics a plus.
+Experience with a variety of data manipulation and analytic tools and languages, e.g. R, Tableau, SQL, Python
+Experience applying a variety of sta!s!cal and modeling techniques using Python, R or another sta!s!cal modeling language, as indicated by familiarity with many of the following techniques - generalized linear modeling, regulariza!on, ensemble models (e.g., random forest, gradient boos!ng), Bayesian analysis methods, !me series analysis, hierarchical modeling, and Monte Carlo methods.
+Strong programming skills - comfortable with all phases of the data science development process, from data collec!on all the way through to deployment
+Strong programming ability, preferably in python
+Tools: Experience using R, Python, and/or SQL.
+Strong programming skill (Python, R, or Scala preferred).
+0-3 years working in a data analysis role performing scientific computing
+Strong programming ability in Python (preferred) and/or R
+Exceptional attention to good coding practices
+
+
+ML / 統計
+Familiar with machine learning concepts, ideally with applied machine learning and/or data mining
+Solid foundation in machine learning, data structures, algorithms, and so"ware design.
+Experience with the latest machine learning frameworks such as MLlib, Mahout, Scikit-learn, TensorFlow, Keras, Theano and OpenCV is desirable.
+Excellent sta!s!cal intui!on and knowledge of various analy!cal approaches
+Experience analyzing complex data and building sta!s!cal models
+Familiarity with CNNs, RNN, LSTMs, and the latest research trends
+Experience with machine learning tools such as scikit-learn, XGBoost, and Keras/Tensorflow
+2+ years professional experience developing and implementing machine learning models
+Familiarity with Python Scikit Learn, Panda or Spark ML/Mllib is a plus
+Experience with building data pipelines is a plus.
+Experience with statistics, machine learning and data visualization
+Experience deriving actionable insight using Natural Language Processing a big plus
+Understanding of emerging big data technologies
+Understanding of and experience with machine learning and data analysis through internships, university coursework, or independent study
+Ability to write clean and concise code, especially in R or Python
+Solid understanding of statistics
+Deep understanding of modern machine learning techniques and their mathematical underpinning, such as classiRcation, recommendation systems and natural language processing.
+Proven ability to tailor machine learning solutions to business problems in a cross functional team.
+Experience with distributed machine learning and computing framework (Spark, Mahout or equivalent). Applied experience preferred.
+Experience productionizing machine learning model is a plus.
+Strong knowledge of mathematics especially in linear algebra, 3D transforms and statistics
+Experience using machine learning algorithms for image processing
+Strong knowledge of statistics
+
+
+
+
+
+Database
+Competent in at least one database system (MySQL preferred)
+A strong working knowledge of SQL including the ability to write and troubleshoot complex SQL procedures and an understanding of Data Warehousing and ETL techniques.
+Experience with NoSQL solution development is a plus.
+Proficiency in SQL
+Programming competency in SQL preferred
+Proficient in RDBMS such as PostgresQL or MySQL;
+Experience with relational databases (e.g. postgres, SQL)
+
+
+軟技巧
+Able to articulate complex technical concepts to non-technical parties
+Strong communication skills and able to effectively communicate with external customers
+Superb communica!on skills and ability to explain your analysis clearly
+Passion for learning and always improving yourself and the team around you
+Intellectual curiosity balanced with humility
+Ability to think and execute at multiple altitudes: from strategy and vision to execution.
+Interpersonal skills with demonstrated ability to influence outcomes and communicate technical content to general audiences, including ability to “story tell” with data.
+Excellent communication skills; this role requires regular interaction with team leads from each part of the company.
+An ability to work with minimum supervision to deliver well-designed high-quality work on time.
+Experience converting analytical results into actionable recommendations
+Clear communication of recommendations derived from analysis
+Ability to learn new product lines and business units quickly
+Excellent communica!on skills - able to effec!vely deliver findings and recommenda!ons to non-technical stakeholders in a clear and compelling fashion
+Ability to collaborate within and across teams on long-term projects
+Ability to partner with cross-functional teams using strong written and verbal communication
+Product sense: Ability to connect your analysis to real world phenomena, always thinking about how insights from the data can be used to improve Airbnb.
+Communication: Demonstrated ability to distill and share complex technical concepts to a less technical audience.
+Great communication skills, and experience telling stories with data.
+
+
+
+
+
+其他
+Industry experience preferred.
+Familiarity with fundamentals of biology and human genetics.
+Experience leading and completing analytical projects
+Experience leading/mentoring analysts desired
+Proficient with MS Office suite
+Successful completion of Auto Club pre-employment assessments, background and drug screenings
+Experience designing valid controlled experiments and conduc!ng robust analyses on the resul!ng data.
+Keen eye for detail and thoughtful investigation of data before relying upon it
+Intuition for data science best practices, stemming from proven experience
+Steadfast focus on creating impactful change
+Experience with scientific data visualization
+Strong publication record
+Ability to work with fast timelines as part of a collaborative team.
+Experience analyzing transcriptomics data

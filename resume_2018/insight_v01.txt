@@ -1,0 +1,88 @@
+########################
+Q1:
+Describe your research to a non-expert * 
+Please limit the description of your work to one paragraph (4-8 sentences). If possible, include a description of a key result, accomplishment, or breakthrough you made that is representative of your work. In addition to your description, feel free to include links about your research, which may include URLs to your academic website, your research papers, videos of talks you’ve given, your Github repository, or press coverage of your research.
+########################
+
+I worked on measuring the electron isolation efficiency and searching for supersymmetric (SUSY) particles in strong and electroweak interactions.
+Because electrons are common physics objects in the particle physics experiment, all analyses require well-isolated electrons to reduce the background effectively.
+The Monte Carlo events are generated and electrons to be studied are selected using samples of events for which a Z boson decays to electron and positron pair by the Tag-and-probe method.
+Different isolation criteria are applied based on the likelihood, the isolation efficiencies are calculated and compared with the one obtained using real data, then the isolation scale factors are computed.
+When searching for SUSY particles, the kinematic distributions of the signal and background MC samples are studied.
+Three regions: signal regions (SR), control regions (CR), and validation regions (VR) are defined for studying the background contributions.
+The background contributions in the SR are predicted by extrapolating the fitted background in the CR and validated using the VR.
+The signal in the data are extracted using a simultaneous fit and the results are shown at the 95% confidence level.
+
+Dissertation: https://hdl.handle.net/11244/299774
+Publications:
+https://cds.cern.ch/record/2157687
+https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.052010
+https://link.springer.com/article/10.1007/JHEP09(2017)084
+https://link.springer.com/article/10.1007/JHEP09(2016)001
+https://link.springer.com/article/10.1140/epjc/s10052-016-4095-8
+Github:
+https://github.com/ytatus94/Higgsino
+https://github.com/ytatus94/SS_v50/
+https://github.com/ytatus94/Real_Lepton_Efficiency
+https://github.com/ytatus94/Electron_Isolation
+
+
+
+#########################
+Q2:
+What programming / scripting / statistical languages, data analysis software and/or databases have you worked with and in what capacity? Please make a detailed list. For each language, database or software, list how much time you spent working with it and briefly describe the work you did and what results you obtained to give us a sense of your proficiency. * 
+#########################
+I know C/C++, Python, BASH shell script, Fortran 77/95, VBA, SQL, matplotlib, pandas, numpy, Scipy
+I started to program in C/C++, BASH, and Fortran from 2003, and Python from 2015.
+I used VBA to develop some handy routines for my daily work from 2006 to 2009 when I was a SPICE engineer working in TSMC.
+I learnt basic SQL operations by taking all the SQL courses from Codecademy and I am learning how to use the popular data analysis packages such as Matpoltlib, Pandas, Numpy, and Scipy now.
+
+As a student in elementary particle physics, I started to program in C++ and used the BASH shell script to do automation since my master degree in 2003.
+At that time, there were some popular packages, for example, PAW, wrote in Fortran 77 so I learnt Fortran 77 and 95 too and knew how to interface Fortran to C++.
+Because the C++ based ROOT framework developed by CERN became a standard for doing particle physics analysis and Python is getting more attention in the elementary particle physics, I started to use Python from 2015.
+And I became a full time Python user about the end of 2016 and only used C++ when it is necessary.
+In my research, the datasets are processed, the events are skimmed and slimmed, the distributions are computed, and the results are dumped into N-tuples or histograms using C++.
+The results are manipulated, analysed, fitted, tabularized and visualized using Python.
+Automations are done by BASH or Python depending on the situation.
+
+Most of the companies rely on using Microsoft Excel in their business.
+Unfortunately, most of the employees don't know how to program using VBA.
+I learnt and developed some VBA programs in Excel to avoid the mistakes by manual operations and repeat the daily routines.
+
+
+
+#########################
+Q3:
+Please describe any side projects relevant to data science you have completed (unrelated to coursework) - feel free to include links. [Optional] 
+Descriptions and, if public, URLs of side projects that you have worked on that are relevant to data science.
+#########################
+
+
+
+
+
+
+
+
+#########################
+Q4:
+If you have done any coursework relevant to data science please let us know which courses and any projects etc. done during the course. [Optional] 
+Please include a short description of the courses and any in-course related projects that you may have completed.
+#########################
+I have taken Scientific Computing I (CS 4743/5743) in Fall 2013.
+This course provides a solid foundation in the mathematical formulation and methods for solving static inverse problems (also called retrieval, regression or 3-D VAR problem).
+This course covers finite dimensional vector spaces, matrices, multivariate calculus, formulation of least squares problems, matrix methods, and optimization algorithms.
+Since all the assignments are MATLAB based, I learnt some basic MATLAB operations too.
+
+
+syllabus: http://ou.edu/content/dam/CoE/CS/Syllabi/2014/FA%202014/CS_4743%20Lakshmivarahan.pdf
+
+
+
+#########################
+Q5:
+What excites you about becoming a data scientist and working in the tech industry * 
+Please limit your response to one paragraph (4-8 sentences).
+#########################
+Physicists use the observations of experiment to derive the laws dominated the Universe and build a complete mathematical model.  
+Data scientists use large amounts of data to analyse the rules behind the seemingly disorderly things and predict the trend or behavior.

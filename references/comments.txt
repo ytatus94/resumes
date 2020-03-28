@@ -1,0 +1,181 @@
+Dear madam or sir to whom it may concern:
+
+I am interesting in the position of JOBPOSITION (job id: JOBID) with COMPANY.
+My resume containing detailed work experience and education is attached.
+
+For the last three years I have worked in analyzing the data at CENTER for my dissertation using C/C++ and Python.
+My physics Ph.D. background trained me to become a careful researcher and strengthened my problem solving skills allowing me to find the best way to reach correct answers.
+Because CENTER is an international orginazation, my time at CENTER also taught me how to work with colleagues coming from different countries with different cultures.
+Considering the differences between academia and industry, I am taking data analysis and machine learning courses from Codecademy and Coursera to help me to switch from the academia to the industry smoothly.
+
+I think my experience makes me an unique candidate to fit this challenging position and I would be able to benefit your team.
+I look forward to hearing from you.
+Thank you for your consideration.
+
+Yours faithfully,
+
+MY NAME
+
+==========================
+(姓名)
+Temporary address: 
+
+Email: 
+寫信時間
+
+Dear sir/ madam: 
+Please accept this letter as my enthusiastic application for the position. 科系 專攻領域 強項 相關工作經驗  啟發The English department of Soochow University provided an in-depth knowledge of academic. Having had a keen interest in being an interpreter when I was a senior high school, I therefore took some courses about translation and interpretation at school. When taking these courses, I always did my best to practice all the skills like shadowing. Apart from this, I also attended some international conferences to have the experience of how a professional interpreter can process two languages simultaneously. After many times experiences, being eager to improve my translation and interpretation skills; therefore, I am really interested in your program, and I hope you can grant me the opportunity to join you.
+
+
+
+Best regards
+==========================
+第一段可以整個拿掉
+你先找幾個你想投的工作
+然後想一下你有哪些skill或者經驗是那個工作裡面會很有用的, 第一段就強調這些
+你不用解釋為什麼你要找這個工作, 因為就算你解釋了對方也不會有一種驚豔的感覺
+
+你要找data science的工作的話可以強調你在實驗用到統計的背景, 然後還就是自學一些分析技巧的能力(舉一兩個例子)
+data science很重視data cleaning以及prototype idea
+這些很適合用python來做
+通常一些想法驗證過後就可以提升到應用層級
+你可以說你有C++的經驗可以跟developer密切合作建更有效率的infrastructure
+你可以要了解一下那些工作實際在幹嘛, 然後針對重點在你的cover letter裡面強調
+這樣你的cover letter的效用會比較大
+
+==========================
+
+至少給你一個白板要能解釋這些演算法在幹嘛
+可以自己implement
+概念知道就好
+比如說ROC recall precision這些
+Yu-Ting
+我頂多就講得出簡單的概念 要寫程式實做還寫不太出來
+Hsi-Ming Chang
+還有p value, confidence interval
+或者high level可以講出來
+讓高中生可以懂
+證書不重要
+沒人會管
+通常都是面試問你怎麼用
+在你project中
+就多花點時間就好
+做深入一點
+你有整理一些data scientist job description嗎?
+你要先知道最熱門的工具是什麼
+再來才能客製化你的resume
+experience oklahoma 移到 education
+然後把experience 跟 projects合併
+變成projects
+cern第四點太長
+可以整理成不同project嗎
+cern 那一塊
+TA那一點有東西可以量化嗎
+比如說帶過幾個學生
+cern第一點
+好像沒什麼東西
+如果我是找data scientist
+他博士做什麼我不在乎
+HR也不會在乎
+重點是你有沒有他們要的技能
+所以你要看job description
+依據市場需求改
+但是放不相關的也沒什麼用
+你說到重點了
+數據分析
+你覺得HR會懂你在寫什麼嗎
+關鍵字很重要
+然後提出數據說明你問題的複雜度
+你的數字方面已經改善很多
+嗯也一些關鍵字
+高能實驗應該是比高能理論還要好找data science職缺
+你resume再繼續改
+有兩個新project
+那應該看起來會很強
+把你phd濃縮成一個project
+這樣你就有三個了
+面試機會一定會有
+你可以想想
+哪種題目你真的覺得有意思
+不一定要學術上
+把你PhD做的再包裝好一點
+我覺得還是很有機會
+然後project做深
+嗯，很少人能知道這些價值
+但不代表你沒價值
+你要用他們理解的方式表現
+你的PhD經驗包裝一下可以很強
+比如CERN最後一點
+到98%
+但原本是多少
+97%? 60%
+差很多
+你要寫
+HR沒什麼耐心
+你要讓他們用最小心力可以知道你做了什麼
+
+==========================
+
+* SKILLS
+Latex 可以拿掉 --> OK
+probability 可以拿掉 --> OK
+
+可以有個小分類, e.g. --> OK
+Programming Language: C/C++ Python(...) shell script...
+Machine Learning: supervised... unsupervised...
+Statistics: ...
+
+下面這個你可以寫一起想個新分類
+Database: SQL (如果你會很多種可以寫MySQL, PostgreSQL, ...) --> OK
+Version Control: Git --> OK
+
+
+* PROJECTS
+Real lepton efficiency 改成 Real "L"epton "E"fficiency 統一格式 --> OK
+裡面的3點寫得不錯
+可以補到5點嗎? --> 沒有用 ML 的方法，想留空間給另一個 ML 專案所以不打算列太多點
+1st point: 用了什麼方法到98%? --> HEP 的方法 Tag & probe
+2nd point: 哪種 algorithm? --> 只是簡單的濾掉非 SUSY 事件
+3rd point: 用了什麼方法? --> 減少手動步驟，改成餵一個 config 照 config 的設定跑自動化流程
+--> 1.2.3.全都跟 ML 沒關係，都是高能物理的方法，寫了可能等於沒寫，頂多是統計方面可以扯上邊
+
+* EXPERIENCE
+University of Oklahoma 併到 Education-->我想學業跟跟工作分開列出
+TA 還有任何可以量化的東西嗎? 比如說帶幾百個學生之類的 --> 我改作業的，沒帶學生，但是改了幾百份
+不用特別寫 Stationed at CERN and dedicated to search for supersymmertic particles since 2015
+這個看日期就會知道
+
+CERN
+1st point: results 可以更具體嗎? electron isolation efficciency 從多少變多少? --> 把模擬的校正到實驗的，不是提高效率
+2nd point: speed up procecssing time by how much? --> 無法估計，因為這只是個篩選過程，把全部 SUSY 事件篩選出可能是我的研究的事件
+3rd point: How many files? How do you know which features are important? --> 就是上面那個約 200 GB 的大小，至於哪些變數重要，高能物理分析常用的重要變數就已知的那幾個
+
+Academia Sinica
+有任何量化指標嗎? --> 過去工作經驗，但沒有直接關係，放一行表示一下，如果 ML 專案需要空間就刪除這個
+
+TSMC
+可以不擺, 除非有量化指標 --> 過去工作經驗，但沒有直接關係，放一行表示一下，如果 ML 專案需要空間就刪除這個
+
+* EDUCATION
+PhD 那邊量化的不錯.
+NTU 那邊論文獎可以量化. 總共有幾個學生參加? 得講比例是? 你是 Top 1% 5% 50 %? --> 年代久遠忘記了
+
+==========================
+
+首先我覺得你的 resume 留白處太多，應該要想辦法塞滿一點。
+
+Skills 統計那邊技能太少, Machine Learning 部份可以再多擺
+Git 跟 SQL 可以設法合成一行，濃縮的目的是你要塞更多東西
+
+Projects 我覺得可以不用註明 Private/Graduate
+第一個 Project 看起來有點弱，感覺也不是很有趣的問題
+第二個 Project factor of 100 是從多大的數據開始?
+
+Experience TA 的部份可以合併到 Education
+Experience CERN 的部份應該移到 Projects，這邊寫大概在幹嘛就好
+
+你可以看看我們 intern 的 resume
+
+==========================
+
+Hello Yu-Ting,  Sorry for the slow response since things have been a bit busy at work. I'd be happy to give you more feedback since I was in your position not too long ago, and I think more companies should give more feedback to people (especially people trying to break into a field.) I would say that I don't think you did anything wrong per se, but I felt like your answers to some of my questions leaned too much on explaining the technical side of things you did (which is fine) without giving me a sense of how you work with other people. Especially in (any) industry job, people work on teams of people, so in a lot of ways, it's more important to demonstrate how you work with others than necessarily showing off technical skill. This is particularly true for phone interviews, since we will be testing the technical part later with code challenges, etc. Another part is that I think you would actually be bored with the work at Synthego. What you've already done is pretty impressive, but we don't necessarily work at that scale, so I wasn't sure it was a good fit.  More broadly, I would say if you're interested in data science, it's *very* important to spend a lot of time networking (like you're doing now!). It looks like you're currently located in Oklahoma, so if it's at all possible for your personal life, I would recommend moving somewhere like Austin, Chicago, NYC, LA, or Seattle just to make it easier to meet other data scientists at Meetups, etc. That's the real way you're going to get a job in the field, since we got over 100 applicants in less than a week of our job being posted. (If you really want to move to the Bay Area, that's also a good choice, but I will warn you that it is stupidly expensive even if it's a great place to live both for your career and personal time.) I hope that helps and let me know if you have any other questions. I also have an article I wrote about switching careers on my LinkedIn profile that might be helpful.

@@ -1,5 +1,8 @@
 # resumes
 Resumes and cover letters
+### 2020/03/28
+* Organize folder and add new resume (resume_20200210.pdf) for H1B application
+
 ### 2019/08/26
 * Add 'research_statement_examples' directory
 * Upload newest resuma tex.
