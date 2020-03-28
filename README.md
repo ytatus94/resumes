@@ -2,7 +2,7 @@
 Resumes and cover letters
 ### 2020/03/28
 * Organize folder and add new resume (resume_20200210.pdf) for H1B application
-* Upload everything.
+* Upload everything. (1173ab3)
 * And then remove entire resume_2009 folder
 
 ### 2019/08/26
