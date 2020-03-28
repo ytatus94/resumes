@@ -4,6 +4,7 @@ Resumes and cover letters
 * Organize folder and add new resume (resume_20200210.pdf) for H1B application
 * Upload everything. (1173ab3)
 * And then remove entire resume_2009 folder
+* Upload 2018 pdf files
 
 ### 2019/08/26
 * Add 'research_statement_examples' directory
