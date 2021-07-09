@@ -1,0 +1,369 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume-openfont}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	LAST UPDATED DATE
+%----------------------------------------------------------------------------------------
+%\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	TITLE NAME
+%----------------------------------------------------------------------------------------
+\namesection{Dr. Yu-Ting}{Shen}
+{\urlstyle{same}
+    \faPhone \ 405.200.2633\\
+    \faEnvelope \ \href{mailto:YuTing.Shen-1@ou.edu}{YuTing.Shen-1@ou.edu}\\
+    \faLinkedinSquare \ \href{https://www.linkedin.com/in/yu-ting-shen-6b730b160/}{linkedin.com/in/yu-ting-shen-6b730b160}\\
+    \faGithub \ \href{https://github.com/ytatus94}{github.com/ytatus94}
+}
+
+%----------------------------------------------------------------------------------------
+%	QUALIFICATIONS
+%----------------------------------------------------------------------------------------
+%\vspace{-0.3cm}
+
+%\section{Qualifications}
+%\location{}
+%\vspace{-0.4cm}
+% 主要分成四大類：學歷，程式/軟體，機器學習/統計/機率，資料庫，軟技巧
+%\begin{tightemize}
+%\item Ph.D. degree with experience in large-scale data analysis and machine learning to build predictive models.
+%\item Proficient in Python, C/C++, SQL and shell script.
+%\item Experienced in Keras, TensorFlow, Spark, and Hadoop.
+%\item Passionate about discovering insights hidden in data in order to tell the story of data to non-experts.
+%\item Excellent analytic and problem-solving skills through critical thinking, and teamwork with colleagues.
+% \item Ph.D. degree in Physics with 5-years experience in large-scale data analysis, data visualization, machine learning, modeling and statistics through Python, C/C++, and BASH shell script.
+% \item Strong programming skills in Python (pandas/numpy/scipy/scikit-learn/matplotlib/seaborn), R,  C/C++, and BASH shell script.
+% \item Familiar with Python packages for data analysis and machine learning (pandas/numpy/scipy/scikit-learn/matplotlib/seaborn).
+% \item Proficient in data manipulation using SQL and Pandas
+% \item Experiences in Spark and knowledge of Hadoop and Hive.
+% \item Deep understanding of machine learning and hands-on experience in constructing and validating predictive models.
+% \item Solid knowledge of neural network (FFNN/RNN/LSTM/CNN) and pratice experience in using Keras and Tensorflow.
+% \item Advanced-level knowledge and daily experiences on using UNIX/Linux operating systems and Git version control.
+% \item Superior documentation and communication skills with the ability to explain complex concepts to wide range of audiences.
+%\end{tightemize}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\vspace{-0.3cm}
+
+\section{Skills}
+\location{}
+\vspace{-0.4cm}
+\begin{tightemize}
+    \item Programming: Python (pandas/numpy/scipy/statsmodels/matplotlib/seaborn/NLTK), C/C++, BASH shell script, Scala
+    \item Machine Learning: scikit-learn, Apache Spark, Keras, TensorFlow, PyTorch, Stable-Baselines
+    \item Database: SQL, PostgreSQL, TablePlus, BigQuery, Incorta, Datalab
+    \item Big Data: Apache Hadoop, Hive, Hue, Cloudera
+    \item Others: Jupyter Notebook, JupyterLab, Git, Docker, Google Cloud Platform, AWS, vscode, IntelliJ CE, Confluence, JIRA, Slack, Anaconda
+    \item Analysis: Data mining, Data Cleaning, Data Visualization, EDA, ETL, Time series, Monte Carlo simulation, Probabilities, Statistics, Hypothesis test, A/B test, boostrapping, Bayesian
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% FOR RESUME
+% \section{Skills}
+
+% \raggedright{
+%     Programming Language:
+%     
+%     Machine Learning: data mining, feature engineering, classification, linear/logistic regression, decision tree, clustering, NLP\\
+%     Statistics:
+%     Regression (LSE/MLE), Confidence intervals, Monte Carlo method, Hypothesis test, A/B test, bootstrapping, Bayesian\\
+%     Version Control:
+%     Git
+%     \textbullet{}
+%     Database:
+%     SQL\\
+% }
+% \sectionsep
+
+%----------------------------------------------------------------------------------------
+%	PROJECT
+%----------------------------------------------------------------------------------------
+%\section{Side Projects}
+%\runsubsection{Build recommender system using Yelp data challenge round 12 dataset}
+%\descript{}
+%\location{}
+%\begin{tightemize}
+%\item Built a restaurant recommender system to recommend top 5 restaurants using item-item similarity based collaborative filtering and matrix factorization based on users’ past visits and ratings.
+%\item Applied natural language processing (NLP) and sentiment analysis techniques to classify the positive and negative reviews, being able to understand business performance based on users' reviews.
+%\item Identified and understood the common user preference by clustering users into groups and inspecting the cluster centroid of each group.
+%\end{tightemize}
+%\sectionsep
+
+%\runsubsection{Sequence-to-sequence natural language generation with deep neural networks}
+%\descript{}
+%\location{}
+%\begin{tightemize}
+%\item Collected large amount of dirty textual data from the Internet and processed data for the text generation.
+%\item Used TensorFlow to construct a sequence-to-sequence model using RNN architecture with LSTM cells.
+%\item Designed an end-to-end training procedure to achieve data-driven language modeling for the generation of poems by training more than 40,000 poems.
+%\item Conducted parameters tuning and used GPU acceleration to obtain optimal speed for training the deep neural networks.
+%\end{tightemize}
+%\sectionsep
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Experience}
+
+\runsubsection{Seeloz Inc.}
+\location{San Jose, CA}
+\descript{Data Scientist}
+\period{2019/04 - present}
+\begin{tightemize}
+    \item Developed and maintained the essential deep-Q learning models in SCAS Autonomous Procurement \& Inventory (AP\&I) platform to optimize profitability and minimize supply chain inefficiencies.
+    \item Established and conducted the data processing pipeline to extract useful information from large dataset, integrated the results into Incorta database and updated the SQL queries in the dashboard.
+    \item Built new LSTM models using Keras for time series data predictions and improved the $r^2$ score from 0.15 to 0.94.
+    \item Helped customers to reduce the costs and lost sales by performing anomaly detection and data visualization to find out the unusual distributions of inventory and procurement in customers' datasets.
+    \item Managed and upgraded the Cloudera making Spark and jupyter service run over all the Seeloz Clusters.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{University of Oklahoma \& Louisiana Tech University}
+\location{Norman, OK}
+\descript{Postdoctoral Researcher}
+\period{2018/07 - 2019/04 }
+\begin{tightemize}
+\item Investigated 1M+ new experimental records to improve model prediction precision by uncovering the hidden relation between momentum and TPR.
+\item Generated Monte Carlo simulation data and extracted useful features by applying feature engineering.
+% \item Builted decision tree model and use simulated data to train model.
+% % FOR RESUME & CV
+% \item 6 semesters teaching assistant for college and graduate level courses.
+% % \item Been teaching assistant and helped professors to grade homework, proctor exams, and compile student achievement statistics for many courses.
+% \item Stationed at CERN and dedicated to search for supersymmertic particles since 2015.
+% % \item Relocated to CERN since 2015. Analyzed large experimental datasets to search for supersymmertic particles among other duties.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Organisation Europ\'{e}enne pour la Recherche Nucl\'{e}aire (CERN)}
+% \runsubsection{The European Organization for Nuclear Research (CERN)}
+%\runsubsection{CERN}
+\location{Geneva, Switzerland}
+\descript{Data Analyst \& Data Scientist}
+\period{2015/03 - 2018/03}
+\begin{tightemize}
+\item Established and optimized the data analysis pipeline to reduce 80\% CPU time and improved key performance metrics.
+Programmed in Python to build decision tree and regression models for analysis team.
+% \item Mined data from the distributed LHC computing Grid using Python and BASH shell script.
+% \item Established data processing pipeline to optimize the analysis processes and improve key performance metrics by 70\% using decision tree algorithm via Python.
+% \item Established data processing pipeline to visualize data distributions and perform feature engineering for building model.
+% \item Performed data mining from the distributed LHC computing Grid using Python and BASH shell script.
+% \item Established data cleaning and processing pipeline to analyze data, visualize distributions, and select features.
+% \item Optimized the analysis processes and improved key performance metrics by 70\% using decision tree algorithm.
+% \item Performed model fitting using unbinned maximum likelihood and applied statistical methods to extract signal within 95\% confidence interval.
+% \item Applied maximum likelihood fitting and statistical methods to extract signal within 95\% confidence interval.
+\item Built regression model and applied statistical methods to extract signal within 95\% confidence interval.
+% \item Developed a new method to calibrate the electron isolation efficiency and became the standard version of the collaboration.
+% \item Constructed classification model and improved the true positive rate of isolated electrons from 0.85 to 0.93.
+\item Improve true positive rate from 0.85 to 0.93 by developing a new classification model for the electron isolation efficiency which became the standard version for the collaboration. 
+% \item Performed the data mining from the distributed LHC computing Grid, applied data cleaning and feature engineering to select the significant data, visualized the data distributions, fitted the model using least chi-square regression, interpreted the results using statistical model within 95\% confidence intervals, and presented and documented the analysis findings.
+% \item Analyzed 30M+ events to improve the true positive rate of isolated electrons from 0.85 to 0.93 and the calibrated electron isolation efficiency became the standard version of the collaboration.
+% \item Implemented the decision tree based methods to maximize the significance and optimized the data selection processes.
+% \item Built data cleaning and processing pipeline to analyze the data and performed an unbinned maximum likelihood fit to extract signal within 95\% confidence interval.
+% \item Calibrated the electron isolation efficiency by analyzing 30M+ events and became the standard version of the collaboration. %The results became a central released version of the collaboration.
+% \item Mined and cleaned data from the distributed LHC computing Grid over 170 computing centers in 42 countries using Rucio.
+% \item Mined data from Grid and wrote data filtering algorithm to reduce the data size from $\sim$400 TB to less than 200 GB and signficantly speed up processing time of data analysis.
+% \item Analyzed large datasets with 400+ variables per file and $\sim$30M entries in total using methods including Monte Carlo simulation, event selection and reconstruction, background suppression etc. (i.e. EDA, feature processing, and feature engineering). 
+% \item Produced Monte Carlo (MC) simulation datasets and performed exploratory data analysis (EDA) on MC datasets.
+% Applied muti-dimensional least Chi-square fit to extract signal events, performed statistical interpretations to validate model or rule out the model parameter space (i.e. model fitting and statistics hypothesis test).
+% \item Analyzed $\sim$200 GB large datasets with 400+ variables per file and $\sim$30M entries in total by performing exploratory data analysis (EDA), feature processing and engineering, least square estimation (LSE) and maximum likelihood estimation (MLE) model fitting, and statistics hypothesis test.
+% \item Classified particles using decision tree based methods to improve the real lepton identification efficiency from 80\% to 98\%.
+% \item Designed data filtration algorithms in C++ reducing the data size from $\sim$400 TB to less than 200 GB.%by a factor of 100.
+% \item Developed a new framework to reduce the run time from one week manual operations to 5 hours automation.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Academia Sinica}
+\location{Taipei, Taiwan}
+\descript{Research Scientist}
+\period{2009/07 - 2011/07}
+\begin{tightemize}
+\item Discovered serious bugs in simulation programs by performing exploratory data analysis on simulated data.
+Programmed in C++ to redesign bug-free Monte Carlo simulation programs.
+\item Improved 50\% of the signal significance by devising a new classification model.
+% \item Performed exploratory data analysis on simulated data and discovered serious bugs in simulation programs.
+% \item Discovered serious bugs and redesigned Monte Carlo simulation programs using C++ to improve the accuracy.
+% \item Devised a new classification model by implementing decision tree algorithm.
+% \item Devised a new classification model to improve the accuracy of signal and background identification.
+% \item Used machine learning model to improve the accuracy of signal and background identification and reduced the major background events by 50\%.
+% \item Used decision tree based methods to classify background sources and reduced the major background events by 50\%.
+% \item Classified different background using decision tree based methods, automated the analysis results visualization processes, and reported the finding.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Taiwan Semiconductor Manufacturing Company (TSMC)}
+\location{Hsinchu, Taiwan}
+\descript{R\&D engineer}
+\period{2006/12 - 2009/02}
+\begin{tightemize}
+\item Led and supported 7 projects to build various models to predict the device performances and documented the model usages and performances.
+\item Developed a standard operating procedure (SOP) in analysis pipeline to reduced 5\% to 10\% model variance and instructed colleagues how to apply the SOP in their projects.
+\item Converted potential clients to paying clients by providing preliminary models matching clients' specifications.
+% \item Led and supported 7 projects of various device models and built model performance documents for clients.
+\item Coordinated effectively with cross-functional teams and clients to resolve issues with tight deadlines.
+% \item Programmed measurement system to automate data collection processes and reduced 30\% of manual-operation time.
+% \item Implemented regression algorithm for data fitting and validated model with advanced statistical method.
+% \item Led and supported 7 projects to build device models using regression, visualized and documented the results for customers.
+% \item Led and supported 7 projects to build device models and documented the results for customers.
+% \item Led and supported 7 projects, performed model parameterization, validation, visualization, documentation, and provided customer support.
+% \item Built analysis pipeline to clean and visualize data.
+% \item Implemented regression algorithm to fit data and applied statistics on the measured data to validate the regression model.
+% \item Completed an urgent project 2 months ahead of the normal schedule and saved the contract.
+
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Project
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% % FOR RESUME
+% \section{Side Projects}
+
+% \runsubsection{project name}
+% \descript{}
+% %\location{}
+% \begin{tightemize}
+% \item What I did on the project which is most important
+% \item 2
+% \item 3
+% \item 4
+% \item 5
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Build recommender system using Yelp data challenge round 12 dataset}  %(\href{https://github.com/ytatus94/Machine_Learning/blob/master/Yelp_data_challenge_round_12/Yelp_README.md}{\textcolor{blue}{GitHub link}})
+% \descript{}
+% \location{}
+% \begin{tightemize}
+% \item Built a restaurant recommender system to recommend top 5 restaurants using item-item similarity based collaborative filtering and matrix factorization based on users’ past visits and ratings.
+% \item Applied natural language processing (NLP) and sentiment analysis techniques to classify the positive and negative reviews, being able to understand business performance based on users' reviews.
+% \item Identified and understood the common user preference by clustering users into groups and inspecting the cluster centroid of each group.
+% \end{tightemize}
+% \sectionsep
+
+
+
+% 1. Use NPL techniques, such as stemming, lemmatization and TF-IDF,to extract features from unstructured review text data.
+% 2. Build language understanding models to classify positive and negative reviews using NLP techniques, Logistic Regression and Random Forests, being able to understand business performance based on user review text and comments.
+% 3. Use unsupervised learning to cluster users into groups. Identify and understand the common user preference within each of the group by inspecting the cluster centroid.
+% 4. Build a restaurant recommender system using collaborative filtering and matrix factorization based on user's past visits and ratings.
+ 
+
+% \runsubsection{Users churn prediction of online music streaming platform} %(\href{https://github.com/ytatus94/Machine_Learning/tree/master/Music_Box/Musicbox_README.md}{\textcolor{blue}{GitHub link}})
+% \descript{}
+% \location{}
+% \begin{tightemize}
+% \item Scraped 35 GB dirty data from the Internet using Python BeautifulSoup package and created databases with comprehensive information to meet the needs for analysis.
+% \item Used Spark to build data processing pipeline including data wrangling and feature engineering.
+% \item Analyzed user behavior patterns and trends to get business insight and build users churn predictive model by leveraging both Sci-kit learn and Spark MLlib packages and achieved the AUC 0.90 and accuracy 0.82.
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Sequence-to-sequence natural language generation with deep neural networks} %(\href{https://github.com/ytatus94/Machine_Learning/blob/master/BitTiger_DS501/Seq2seq_text_generation_README.md}{\textcolor{blue}{GitHub link}})
+% \descript{}
+% \location{}
+% \begin{tightemize}
+% \item Collected large amount of dirty textual data from the Internet and processed data for the text generation.
+% \item Used TensorFlow to construct a sequence-to-sequence model using RNN architecture with LSTM cells.
+% \item Designed an end-to-end training procedure to achieve data-driven language modeling for the generation of poems by training more than 40,000 poems.
+% \item Conducted parameters tuning and used GPU acceleration to obtain optimal speed for training the deep neural networks.
+% \end{tightemize}
+% \sectionsep
+
+
+% \runsubsection{Real Lepton Efficiency}
+% \runsubsection{Particle classification and }
+% \location{}
+% \begin{tightemize}
+% \item Performed data wrangling and  exploratory data analysis to select features for model predeiction.
+% \item Built a predictive model to classify four types of particles therefore improve the significance of the signal.
+% \item Implemented statistical model and Monte Carlo method to predict the noises from various sources in the region of interest.
+% %\item Classified particles using decision tree based methods to improve the real lepton identification efficiency from 80\% to 98\%.
+% \item Designed data filtration algorithms in C++ reducing the data size from $\sim$400 TB to less than 200 GB.%by a factor of 100.
+% \item Developed a new framework to reduce the run time from one week manual operations to 5 hours automation.
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Capital Bikeshare Rental Demand}
+% \location{}
+% \begin{tightemize}
+% \item Performed feature selection and engineering to remove 3 standard deviations outliers and created new datetime features.
+% \item Visualized the weather information and imputed missing data using the random forest model based estimation.
+% \item Used random forest model to predict the total count of bikes rented during each hour of the last 10 days in each month.
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Upstart 3-year Terms Loan Charged-off Rate Prediction}
+% \location{}
+% \begin{tightemize}
+% \item Analyzed 50,000 loans with different repayment status within two years to extract the monthly default rate.
+% \item Predicted the charged-off rate by the time all 3-year terms finished using linear regression.
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{INSPIRE HEP PostDoc Position in North America}
+% \location{}
+% \begin{tightemize}
+% \item Scraped website using Beautiful Soup and converted results into SQL database using sqlalchemy.
+% \item Leveraged natural language processing (NLP) and machine learning to predict institution participants in experiments.
+% \end{tightemize}
+% \sectionsep
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education} 
+
+\runsubsection{University of Oklahoma}
+\location{Norman, OK}
+\descript{Ph.D. in Physics}
+\gpa{Cum. GPA: 3.47 / 4.00}
+\period{2011/08 - 2018/05}
+\begin{tightemize}
+\item Published 4 top journal papers, i5 conference notes, and presented in 2 conferences.
+\item 6 semesters teaching assistant for college and graduate level courses.
+% \item Been president of Taiwanese Student Association (TSA) and organized several TSA on campus events.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{National Taiwan University}
+\location{Taipei, Taiwan}
+\descript{M.S. in Physics}
+\gpa{Cum. GPA: 3.86 / 4.00}
+\period{2003/09 - 2006/07}
+\begin{tightemize}
+\item Won 3$^{rd}$ place graduate student thesis awards, The Physical Society of Taiwan, 2006.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Chung Yuan Christian University}
+\location{Chung Li, Taiwan}
+\descript{B.S. in Physics}
+\gpa{Cum. GPA: 3.53 / 4.00}
+\period{1998/09 - 2002/07}
+\begin{tightemize}
+\item Certificate of Holistic Achievement Award, 1998 - 1999, 1999 - 2000, and 2000 - 2001
+\item Certificate of Academic Achievement Award, 2000 - 2001
+\end{tightemize}
+\sectionsep
+
+\end{document}
