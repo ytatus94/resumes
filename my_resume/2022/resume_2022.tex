@@ -1,0 +1,294 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+% possible options include:
+% font size ('10pt', '11pt' and '12pt'), 
+% paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape')
+% font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}
+% style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}
+% to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}
+% uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}
+% if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\usepackage{multicol}
+%\setlength{\hintscolumnwidth}{3cm}
+% if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}
+% for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Dr. Yu-Ting}{Shen}
+% \title{Curriculum Vitae}
+\address{}{}{}
+% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+% \phone[mobile]{909-839-3097}
+% \phone[fixed]{01234 123456}
+%\phone[fax]{+3~(456)~789~012}
+% \email{xpan1@swarthmore.edu}
+% \homepage{shawnpan.me}
+% \extrainfo{}
+%\photo[64pt][0.4pt]{picture}
+% '64pt' is the height the picture must be resized to, 
+% 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+  
+\newcommand*{\customcventry}[7][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\setlength{\tabcolsep}{12pt}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-28mm}
+
+\begin{center}
+\begin{tabular}{ l l }
+ % \faGlobe\enspace 
+ \faLinkedinSquare\enspace \href{https://www.linkedin.com/in/yu-ting-shen-6b730b160/}{yu-ting-shen-6b730b160} & \faEnvelopeO\enspace \href{mailto:ytatus94@yahoo.com.tw}{ytatus94@yahoo.com.tw} \\
+ \faGithub\enspace \href{https://github.com/ytatus94}{ytatus94} & \faMobile\enspace (405).200.2633\\  
+\end{tabular}
+\end{center}
+
+\section{SKILLS}
+{
+\begin{itemize}
+  \item \textbf{Programming language}: Python, C/C++, Bash shell script, Scala,
+  \item \textbf{Machine learning}: scikit-learn, Apache Spark, Keras, TensorFlow, PyTorch,
+  \item \textbf{Reinforcement learning}: Gym, Stable-Baselines, Ray, 
+  \item \textbf{Database}: SQL, Big Query, PostgreSQL, TablePlus, Incorta,
+  \item \textbf{Visualization \& Dashboard}: matplotlib, seaborn, bokeh, DataStudio, Tableau, Power BI
+  \item \textbf{Big Data}: Apache Hadoop, Hive, Cloudera
+  \item \textbf{Cloud}: GCP, Azure,
+  \item \textbf{Others}: Git, Jira, Docker, 
+\end{itemize}
+}
+
+\section{EXPERIENCE}
+
+{\customcventry{2019/04 - present}{Data Scientist}{Seeloz Inc}{San Jose, CA}{}
+{\begin{itemize}
+\item Developed and maintained the essential deep-Q learning network (DQN) models in SCAS Autonomous Procurement \& Inventory (AP\&I) platform to optimize profitability and minimize supply chain inefficiencies. The annual total inventory values are reduced from \$7.82M to \$5.77M (26\% lower) and the annual turnover rate is increased 44\% from 15.42 to 22.27.
+\item Reduced the inventory levels 30\% $\sim$ 70\%, which varies by warehouses and products, and retained low stock-outs by introducing the purchase-procurement splitting and postponed action methods into the model-based reinforcement learning (RL).
+\item Migrated the AP\&I platform from Stable-Baselines to Ray.
+\item Built interactive dashboards for visualizations and quick inspections. The dashboards were constructed on the DataStudio at the beginning, and then ported to Bokeh now.
+\item Implemented an abstraction layer on top of Azure and GCP to access the Azure storage account and Google Cloud storage. This layer provides the AP\&I cross-platform functionalities.
+\item Designed an universal interface to submit batch jobs to Google AI platform, GKE, Azure VMSS, Azure ML, AKS, on-premises cluster, and local docker container.
+\item Applied the time series analysis and forecasting methods to predict customers' demands and orders. The models been used including ETS, ARIMA/SARIMA, VAR, long-short term memory (LSTM), and double random forest (double RF). The $r^2$ score was improved from 0.15 (using ETS model) up to 0.92 (using double RF) and the number of supported products have been increased by a factor of 20 times.
+% \item Time series forecasting to forecast customers' demand, ordering, purchase-procurement splitting with the X\% accuracy for different products and customers.
+% \item Built new LSTM models using Keras for demands and orders time series data predictions and improved the $r^2$ score from 0.15 to 0.94.
+% \item Developed and maintained reinforcement learning (RL) based framework using deep-Q learning (DQN) for single and multiple echelons to optimize the profitability and minimize supply chain inefficiencies. The annual total inventory values are reduced from \$7.82M to \$5.77M (26\% lower) and the annual turnover rate is increased 44\% from 15.42 to 22.27. %Help the customers to safe Y\% of the cost and earn Z\% revenues.
+% \item Designed an API to access the Google Cloud Storage and Microsoft Azure Storage accounts. Using this API, the users can switch between cloud service providers without modifying their code base.
+% \item Established and conducted the data processing pipeline to extract useful information from large dataset, integrated the results into Incorta database and updated the SQL queries in the dashboard.
+% \item Helped customers to reduce the costs and lost sales by performing anomaly detection and data visualization to find out the unusual distributions of inventory and procurement in customers' datasets.
+% \item Managed and upgraded the Cloudera making Spark and jupyter service run over all the Seeloz Clusters.
+% %
+% \item Suggest and explore novel solutions to data science/data visualization/data pipeline problems.
+% \item Built a time-series model for a seasonal product category to test, compare and validate supply chain team’s predictions.
+% \item Prepared structural databases to build complex data frames for team usage and provided complex business analytics, measures, visuals and insights from raw data for assortment planning management to make knowledgeable and data-driven decisions.
+% \item Designed machine learning and predictive models to test and verify the store market area definitions to the rolling-12 month collected data. This project involved data modeling and machine learning algorithm (training, testing and scoring) implementation using various predictive algorithms such as decision trees, random forest, etc.
+\end{itemize}
+}
+
+% {\customcventry{2018/07 - 2019/01}{Postdoctoral Researcher}{University of Oklahoma \& Louisiana Tech University}{Norman, OK}{}
+% {\begin{itemize}
+%   \item I do something awesome
+% \item Investigated 1M+ new experimental records to improve model prediction precision by uncovering the hidden relation between momentum and TPR.
+% \item Generated Monte Carlo simulation data and extracted useful features by applying feature engineering.
+% \item Builted decision tree model and use simulated data to train model.
+% % FOR RESUME & CV
+% \item 6 semesters teaching assistant for college and graduate level courses.
+% \item Been teaching assistant and helped professors to grade homework, proctor exams, and compile student achievement statistics for many courses.
+% \item Stationed at CERN and dedicated to search for supersymmertic particles since 2015.
+% \item Relocated to CERN since 2015. Analyzed large experimental datasets to search for supersymmertic particles among other duties.
+% \end{itemize}
+% }
+
+{\customcventry{2015/03 - 2018/03}{Data Scientist}{CERN (Organisation Europ\'{e}enne pour la Recherche Nucl\'{e}aire )}{Geneva, Switzerland}{}
+{\begin{itemize}
+  \item Improved the electron isolation efficiency from 93\% to 98\% by introducing the momentum distributions in spherical coordinate. This results became a new standard for all analysis at CERN.
+  \item Analyzed 400 TB data from the LHC computing Grid, built decision tree and regression models, applied statistical methods to extract the signal within 95\% confidence interval.
+\end{itemize}
+}
+
+{\customcventry{2009/07 - 2011/07}{Research Scientist}{Academia Sinica}{Taipei, Taiwan}{}
+{\begin{itemize}
+  \item Developed a new Monte Carlo simulation program in C++ and GEANT4 for germanium detector and implemented decision tree models in C++ and ROOT for particle classifications with an accuracy of 96\%.
+\end{itemize}
+}
+
+{\customcventry{2006/12 - 2009/02}{R\&D Engineer}{TSMC (Taiwan Semiconductor Manufacturing Company)}{Hsinchu, Taiwan}{}
+{\begin{itemize}
+  \item Improved 40\% of the performance by creating and deploying on-prem analysis pipeline, which includes high level data cleaning, engineering, visualization, statistical model building, and MC simulation. 
+\end{itemize}
+}
+
+\section{EDUCATION}
+{\customcventry{2011 - 2018}{Ph.D. in Physics}{University of Oklahoma}{Norman, OK}{}{}}
+
+\end{document}
+
+
+%
+% This part is for Sinica
+%
+% \item Discovered serious bugs in simulation programs by performing exploratory data analysis on simulated data.
+% \item Programmed in C++ to redesign a bug-free Monte Carlo simulation programs.
+% \item Improved 50\% of the signal significance by devising a new classification model.
+% \item Performed exploratory data analysis on simulated data and discovered serious bugs in simulation programs.
+% \item Discovered serious bugs and redesigned Monte Carlo simulation programs using C++ to improve the accuracy.
+% \item Devised a new classification model to improve the accuracy of signal and background identification.
+% \item Devised a new classification model by implementing decision tree algorithm.
+% \item Used machine learning model to improve the accuracy of signal and background identification and reduced the major background events by 50\%.
+% \item Used decision tree based methods to classify background sources and reduced the major background events by 50\%.
+% \item Classified different background using decision tree based methods, automated the analysis results visualization processes, and reported the finding.
+
+%
+% This part is for TSMC
+%
+% \item Developed C/C++ programs for the measurement system to automate raw data collection processes which results in 1.5$\times$ $\sim$ 3$\times$ speed improvements depending on the scope of measurements.
+%clean the measured raw data, apply feature engineering to extract significant features for modeling, build clustering and multi-dimentional regression models for various device types, utilize statistical models to finalize device parameters in the 95\% confidence interval, validate model performance by running MC simulation and build confusion matrix, and visualize the Id-Vg and Id-Vd distributions.
+% \item Led and managed 7 projects to coordinate effectively with the cross-functional teams and clients, defined the project specifications (SPEC) and schedules, created standard operating procedures (SOP) for various analysis steps, documented the usages and performances of all device models in the project SPEC for the clients.
+% \item Developed C/C++ based programs for the measurement system to automate raw data collection processes which reduces manual-operation time from 3 $\sim$ 6 hours to 2 $\sim$ 4 hours depending on the scope of measurements. This results in 30\% to 60\% improvements of the raw data collection performance.
+% \item Programmed measurement system to automate data collection processes and reduced 30\% of manual-operation time.
+% \item Implemented regression algorithm for data fitting and validated model with advanced statistical method.
+% \item Implemented regression algorithm to fit data and applied statistics on the measured data to validate the regression model.
+% \item Developed a standard operating procedure (SOP) in analysis pipeline to reduced 5\% to 10\% model variance and instructed colleagues how to apply the SOP in their projects.
+% \item Converted potential clients to paying clients by providing preliminary models matching clients' specifications.
+% \item Led and supported 7 projects to build various models to predict the device performances and documented the model usages and performances.
+% \item Led and supported 7 projects of various device models and built model performance documents for clients.
+% \item Led and supported 7 projects to build device models using regression, visualized and documented the results for customers.
+% \item Led and supported 7 projects to build device models and documented the results for customers.
+% \item Led and supported 7 projects, performed model parameterization, validation, visualization, documentation, and provided customer support.
+% \item Built analysis pipeline to clean and visualize data.
+%\item Coordinated effectively with cross-functional teams and clients to resolve issues with tight deadlines.
+% \item Completed an urgent project 2 months ahead of the normal schedule and saved the contract.
+
+
+% \section{PROJECTS}
+
+% {\customcvproject{Amazing Project 1}{Aug 2017 - Present}
+%   {\begin{itemize}
+%     \item Ran custom Minecraft mods on CentOS and Debian servers
+%     \item Reverse engineered obfuscated Java using a decompiler and reflection
+%   \end{itemize}
+%   }
+% }
+
+% {\customcvproject{Amazing Project 2}{Feb 2016 – May 2017}
+% {\begin{itemize}
+%   \item Began a group to create the first 36 hour student-run hackathon ever held at Illinois
+%   \item Led 50 staff to raise \$175,000 for HackIllinois, managing relationships with 60+ sponsors
+%   \item Plan events to increase social interaction among ACM members, as well as events to foster the spirit of computer science at Illinois
+% \end{itemize}
+% }
+
+% {\customcvproject{Amazing Project 3}{Jan 2015 – May 2015}
+% {\begin{itemize}
+%   \item Assist in recruiting potential and admitted students to the UIUC computer science program
+%   \item Attend information sessions, admitted student Q\&A’s, and student lunches to generate interest in the Illinois Computer Science department
+% \end{itemize}
+% }
+% }
+
+% \section{ADDITIONAL}
+% \begin{minipage}{\maincolumnwidth}%
+% 	\small{
+%     	\begin{itemize}
+%           \item Relevant Coursework: Data Structures and Algorithms, Natural Language Processing, Computer Systems, Databases, Computer Security, Abstract Algebra
+%           \item President of XYZ Club, Public Relations Manager of Swarthmore QWE Club
+%           \item Programming Languages: Python, C, C++, PHP, Java, HTML/CSS, Javascript, jQuery, NodeJS
+%           \item Fluent in Gibberish, conversational in Nonsense
+% 		\end{itemize}}%
+% \end{minipage}%
+      
+% }
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+
+
+
+%% end of file `template.tex'.
