@@ -1,6 +1,10 @@
 # resumes
 Resumes and cover letters
 
+### 2022/06/26
+* Update resume_2022
+* Making the resume fits in one page
+
 ### 2022/06/22
 * Update resume_2022
 * Recruiter wants to see the Python and SQL experiences mentioned on the resume.
