@@ -112,7 +112,7 @@
 \begin{center}
 \begin{tabular}{ l l }
  % \faGlobe\enspace 
- \faLinkedinSquare\enspace \href{https://www.linkedin.com/in/yu-ting-shen-6b730b160/}{yu-ting-shen-6b730b160} & \faEnvelopeO\enspace \href{mailto:ytatus94@yahoo.com.tw}{ytatus94@yahoo.com.tw} \\
+ \faLinkedinSquare\enspace \href{https://www.linkedin.com/in/yu-ting-shen-6b730b160/}{yu-ting-shen-6b730b160} & \faEnvelopeO\enspace \href{mailto:ytatus94@yahoo.com.tw}{ytshen2020@gmail.com} \\
  \faGithub\enspace \href{https://github.com/ytatus94}{ytatus94} & \faMobile\enspace (405).200.2633\\  
 \end{tabular}
 \end{center}
@@ -124,26 +124,29 @@
   \item \textbf{Machine learning}: scikit-learn, Apache Spark, Keras, TensorFlow, PyTorch,
   \item \textbf{Reinforcement learning}: Gym, Stable-Baselines, Ray, 
   \item \textbf{Database}: SQL, Big Query, PostgreSQL, TablePlus, Incorta,
-  \item \textbf{Visualization \& Dashboard}: matplotlib, seaborn, bokeh, DataStudio, Tableau, Power BI
+  \item \textbf{Visualization \& Dashboard}: matplotlib, seaborn, dash, bokeh, DataStudio, Tableau, Power BI
   \item \textbf{Big Data}: Apache Hadoop, Hive, Cloudera
-  \item \textbf{Cloud}: GCP, Azure,
-  \item \textbf{Others}: Git, Jira, Docker, 
+  \item \textbf{Cloud}: GCP, Azure, AWS
+  \item \textbf{Others}: Git, Jira, Docker, vscode, jupyter, anaconda
 \end{itemize}
 }
 
 \section{EXPERIENCE}
 
-{\customcventry{2019/04 - present}{Data Scientist}{Seeloz Inc}{San Jose, CA}{}
+{\customcventry{2019/04 - present}{Senior Data Scientist}{Seeloz Inc}{San Jose, CA}{}
 {\begin{itemize}
 % \item Developed and maintained the essential deep-Q learning network (DQN) models in SCAS Autonomous Procurement \& Inventory (AP\&I) platform to optimize profitability and minimize supply chain inefficiencies. The annual total inventory values are reduced from \$7.82M to \$5.77M (26\% lower) and the annual turnover rate is increased 44\% from 15.42 to 22.27.
 \item Developed and maintained the essential deep-Q learning network (DQN) models for inventory control to optimize profitability and minimize supply chain inefficiencies. The annual total inventory values are reduced from \$7.82M to \$5.77M (26\% lower) and the annual turnover rate is increased 44\% from 15.42 to 22.27.
 \item Reduced the inventory levels 30\% $\sim$ 70\%, which varies by warehouses and products, and retained low stock-outs by introducing the purchase-procurement splitting and postponed action methods into the model-based reinforcement learning (RL).
+\item Applied the time series analysis and forecasting methods using Python and predicted customers' demands and orders. The models been used including ETS, ARIMA/SARIMA, VAR, long-short term memory (LSTM), and double random forest (double RF). The $r^2$ score was improved from 0.15 (using ETS model) up to 0.92 (using double RF) and the number of supported products have been increased by a factor of 20 times.
 % \item Migrated the AP\&I platform from Stable-Baselines to Ray.
 \item Analyzed supply chain data from various clients by writing SQL queries on the Google Big Query and PostgreSQL. 
-\item Built interactive dashboards for visualizations and quick inspections. The dashboards were constructed on the Google DataStudio at the beginning, and then ported to Python with Bokeh package now.
-\item Implemented an abstraction layer (API), called Cloud I/O, on top of Azure and GCP to access the Azure storage account and Google Cloud storage. This Python-based API provides the AP\&I cross-platform functionalities.
+%\item Built interactive dashboards for visualizations and quick inspections. The dashboards were constructed on the Google DataStudio at the beginning, and then ported to Python with Bokeh package now.
+\item Built interactive dashboards for visualizations using Google DataStudio and Python Plotly Dash.
+% \item Implemented an abstraction layer (API), called Cloud I/O, on top of Azure and GCP to access the Azure storage account and Google Cloud storage. This Python-based API provides the AP\&I cross-platform functionalities.
+% \item Designed a Python-based universal interface to submit batch jobs to Google AI platform, GKE, Azure VMSS, Azure ML, AKS, on-premises cluster, and local docker container.
+\item Implemented an abstraction layer (API) on top of 3 major cloud platforms (GCP, Azure, and AWS) to access the cloud storage. This Python-based API provides the AP\&I cross-platform functionalities.
 \item Designed a Python-based universal interface to submit batch jobs to Google AI platform, GKE, Azure VMSS, Azure ML, AKS, on-premises cluster, and local docker container.
-\item Applied the time series analysis and forecasting methods using Python and predicted customers' demands and orders. The models been used including ETS, ARIMA/SARIMA, VAR, long-short term memory (LSTM), and double random forest (double RF). The $r^2$ score was improved from 0.15 (using ETS model) up to 0.92 (using double RF) and the number of supported products have been increased by a factor of 20 times.
 % \item Time series forecasting to forecast customers' demand, ordering, purchase-procurement splitting with the X\% accuracy for different products and customers.
 % \item Built new LSTM models using Keras for demands and orders time series data predictions and improved the $r^2$ score from 0.15 to 0.94.
 % \item Developed and maintained reinforcement learning (RL) based framework using deep-Q learning (DQN) for single and multiple echelons to optimize the profitability and minimize supply chain inefficiencies. The annual total inventory values are reduced from \$7.82M to \$5.77M (26\% lower) and the annual turnover rate is increased 44\% from 15.42 to 22.27. %Help the customers to safe Y\% of the cost and earn Z\% revenues.
@@ -193,7 +196,7 @@
 }
 
 \section{EDUCATION}
-{\customcventry{2011 - 2018}{Ph.D. in Physics}{University of Oklahoma}{Norman, OK}{}{}}
+{\customcventry{2011/08/22 - 2018/05/11}{Ph.D. in Physics}{University of Oklahoma}{Norman, OK}{}{}}
 
 \end{document}
 
