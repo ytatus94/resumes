@@ -1,0 +1,109 @@
+\documentclass[12pt,letterpaper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt')
+                                                   % paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') 
+% moderncv themes
+\moderncvstyle{classic}           % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}             % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[utf8]{inputenc}       % use UTF-8 input encoding
+\usepackage{ragged2e}             % Text alignment
+\usepackage[scale=0.75]{geometry} % adjust the page margins
+
+% Change font
+\renewcommand{\familydefault}{\sfdefault} % use serif
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% VARIABLES
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\CompanyName}{Qualia}
+% \newcommand{\CompanyAddress}{City, State}
+\newcommand{\CompanyAddress}{San Francisco, CA}
+% \newcommand{\CompanyAddress}{Seattle, WA}
+% \newcommand{\CompanyAddress}{New York, State}
+\newcommand{\JobPositionName}{Data Scientist}
+% \newcommand{\JobPositionName}{Data Analyst}
+% \newcommand{\JobPositionName}{Machine Learning Engineer}
+% \newcommand{\ManagerName}{Madam or Sir to whom it may concern:}
+\newcommand{\ManagerName}{Hiring Manager,}
+% \newcommand{\ClosingWords}{Yours faithfully,} % 非以對方姓氏稱呼對方時
+%\newcommand{\ClosingWords}{Yours sincerely,} % 知道對方姓氏時
+\newcommand{\ClosingWords}{Sincerely,}
+
+\newcommand{\MyFirstName}{Yu-Ting}
+\newcommand{\MyLastName}{Shen}
+\newcommand{\MyAddress}{San Jose, CA 95131}
+\newcommand{\MyPhoneNumber}{+1~(450)~200~2633}
+\newcommand{\MyEmail}{ytshen2020@gmail.com}
+%\newcommand{\MyHomepage}{www.myhomepage.com}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% PERSONAL DATA
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\name{\MyFirstName{}}{\MyLastName{}}
+\address{\MyAddress{}}
+\phone[mobile]{\MyPhoneNumber{}} % can be mobile, fixed, fax
+\email{\MyEmail{}}
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% RECIPIENT DATA
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\recipient{\CompanyName{}}{\CompanyAddress{}}
+\date{\today}
+\opening{Dear \ManagerName{}}
+\closing{\ClosingWords}
+\makelettertitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% LETTER CONTENTS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\justifying
+
+% USE A SENTENCE TO DESCRIBE THE REASON WHY APPLYING FOR THIS POSITION AT HERE.
+I am applying for the position of \JobPositionName{} in \CompanyName{}, as advertised on the \CompanyName{} career page. With a strong background in data analysis, machine learning, and a passion for leveraging data to drive business insights, I believe I am well-suited for this role and can contribute to the growth and success of the company.
+
+I have a Ph.D degree from the University of Oklahoma and am a Data Scientist at Seeloz. Throughout my academic and professional career, I have had the opportunity to apply my skills to real-world problems, including working on projects involving data analysis and visualization, predictive modeling, and demand forecasting. I am proficient in analyzing large-scale data using Python and SQL, creating interactive dashboard to visualize results, and building predictive models using machine learning and deep learning. 
+
+
+% where I gained a solid foundation in statistical analysis, data mining, and machine learning techniques.
+
+
+
+
+
+% I have about 10 years experience in data science and 4 years experience in supply chain management and optimization. 
+
+% I am an expert in time series analysis and forecasting, statistical analysis and modeling, and visualization. 
+%I am interested in solving the realistic problems with timestamp information such as the portfolio management predictions, financial planing, and supply chain management and optimizations.
+
+
+% I have taken several data analysis and machine learning courses and a data science bootcamp.
+% The skills such as querying data using SQL, manipulating and cleaning data using Pandas, visualizing data distributions using Matplotlib and Seaborn, and machine learning using Scikit-learn and Keras are in my toolbox now.
+% Now I participate in the competitions on Kaggle to sharpen my data analysis skills and learn from other experts.
+
+% The Ph.D. in high energy physics trained me to be a careful researcher and strengthened my problem solving skills.
+% Presenting the findings in weekly meetings gave me the ability to explain quantitative topics for a variety of audiences.
+% Analyzing the experimental data which are produced at a rate about 25 GB/s enhanced my C/C++ and Python programming skills.
+%In high energy physics, we analyze the experimental data and compare the results with the theoretical predictions.
+%The experimental raw data are produced at a rate about 50 TB/s.
+%In order to analyze the huge amount of data produced by the experiment, I developed an analysis framework using C/C++ and Python.
+
+I would welcome the chance to speak with you about the responsibilities of this particular \JobPositionName{} position. My resume containing detailed work experience and education is attached. I am confident that my background makes me a unique candidate to fit this challenging position and I would be a valuable addition to your team. I look forward to hearing from you.
+Thank you for your time and consideration.
+
+\vspace{0.5cm}
+
+\makeletterclosing
+
+\end{document}
